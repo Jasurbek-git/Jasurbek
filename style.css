@@ -3,3 +3,77 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    background-color: whitesmoke;
+}
+nav{
+    width: 100%;
+    height: 60px;
+}
+.search-form{
+    width: 700px;
+    height: 90px;
+    margin: 0.8rem;
+}
+input{
+    display: flex;
+    background-color: transparent; 
+    border: none; 
+    color: white; 
+    height: 40px; 
+    margin-left: 1rem;
+}
+#search{
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+}
+#container{
+    margin: 1.5rem;
+    width: 500px;
+    height: 45px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 15rem;
+}
+#kla{
+    display: flex;
+    width: 50px;
+    margin-left: 13rem;
+    cursor: pointer;
+}
+#mic{
+    width: 40px;
+    height: 40px;
+    margin-top: 1.59rem;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+}
+.right-content{
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20rem;
+    gap: 20px;
+
+}
+.right-content > img {
+    width: 40px;
+    display: flex;
+    cursor: pointer;
+}
+#btn{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.card{
+    width: 18rem;
+    margin: 2rem;
+}

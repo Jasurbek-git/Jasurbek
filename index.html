@@ -1,19 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./root/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="navbar">
+            <nav class="d-flex">
+                <div style="display: flex; flex-direction: column; gap: 15px; margin: 1rem;" class="icons">
+                    <img style="width: 40px; cursor: pointer;" src="./icons/1.svg" alt="">
+                    <p class="text-dark" style="display: flex; flex-direction: column; font-size: 11px;">
+                        <img style="width: 40px;" src="./icons/home.svg" alt="">
+                        Главная</p>
+                        <p class="text-dark" style="display: flex; flex-direction: column; font-size: 11px;">
+                        <img style="width: 40px; cursor: pointer;" src="./icons/shorts.png" alt="">
+                        Shorts</p>
+                        <p class="text-dark" style="display: flex; flex-direction: column; font-size: 11px;">
+                        <img style="width: 40px; cursor: pointer;" src="./icons/play.svg" alt="">
+                        Подписки</p>
+                        <p class="text-dark" style="display: flex; flex-direction: column; font-size: 11px;">
+                        <img style="width: 40px; cursor: pointer;" src="./icons/im.svg" alt="">
+                        Вы</p>
+                        
+                </div>
+                <div class="yt-icons m-3">
+                    <p class="font-weight-bold"><img src="./icons/youtube.svg" alt="youtube" style="width: 50px;">YouTube</p>
+                </div>
+                <div class="search-form d-flex">
+                    <div id="container" class="style-scope ytd-searchbox">
+                        <input id="input" type="search" placeholder="  Введите запрос">
+                        <img id="kla" src="./icons/keyboard.svg" alt="">
+                        <img id="search" src="./icons/search.svg" alt="">
+                    </div>
+                    <img id="mic" src="./icons/microphone-alt-1-svgrepo-com.svg" alt="">
+                </div>
+                <div class="right-content d-flex">
+                    <img src="./icons/video-plus-svgrepo-com.svg" alt="">
+                    <img src="./icons/notification.svg" alt="">
+                    <img src="./icons/akkount.svg" alt="">
+                </div>
+            </nav>
+        </div>
+            <div id="btn" class="container-fluid d-flex">
+                <button class="btn btn">Все</button>
+                <button class="btn btn">Видеоигры</button>
+                <button class="btn btn">Джемы</button>
+                <button class="btn btn">Музыка</button>
+                <button class="btn btn">Сейчас в эфире</button>
+                <button class="btn btn">Экшен и приключение</button>
+                <button class="btn btn">Кулинария</button>
+                <button class="btn btn">Недавно опубликованные</button>
+                <button class="btn btn">Просмотрено</button>
+                <button class="btn btn">Новое для вас</button>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <video width="320" height="240" controls>
+                        <source src="https://www.youtube.com/watch?v=RTTp1FvTEN4" type="video/mp4">
+                    </video>
+
+                    
+                </div>
+            </div>
+        
+    </div>
     
 
 
 
 
 
-    <script src="./root/js/bootstrap.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 </html>
